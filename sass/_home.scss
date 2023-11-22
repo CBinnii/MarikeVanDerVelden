@@ -1,0 +1,65 @@
+.section {
+    .section-banner {
+        .banner-image {
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+
+            .container {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .banner-text {
+                    color: #f6cd7e;
+                    text-align: center;
+
+                    h1 {
+                        font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
+                        font-weight: 400;
+                        letter-spacing: 0;
+                        line-height: 1;
+                        padding-bottom: 30px;
+                        text-align: center;
+                        font-size: 92px;
+                        text-transform: uppercase;
+                    }
+
+                    p {
+                        font-size: 21px;
+                        letter-spacing: 4.2px;
+                        line-height: 21px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-about {
+        h1 {
+            font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 56px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 24px;
+            letter-spacing: 4.2px;
+            line-height: 1.2;
+        }
+    }
+
+    .section-tiktok {
+        h1 {
+            font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+
+    .section-contact {
+        h1 {
+            font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}
