@@ -2,8 +2,9 @@
     .section-banner {
         .banner-image {
             height: 100vh;
-            background-position: center;
+            background-position: top center;
             background-size: cover;
+            background-attachment: fixed;
 
             .container {
                 height: 100%;

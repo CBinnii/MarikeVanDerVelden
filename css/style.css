@@ -19376,8 +19376,9 @@ input:active, input:focus, button:active, button:focus {
 
 .section .section-banner .banner-image {
   height: 100vh;
-  background-position: center;
-  background-size: cover; }
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed; }
   .section .section-banner .banner-image .container {
     height: 100%;
     display: flex;
