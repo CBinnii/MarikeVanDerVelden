@@ -37,29 +37,141 @@
     }
 
     .section-about {
-        h1 {
-            font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 56px;
-            text-transform: uppercase;
-        }
+        height: 500px;
+        // background-image: url('../images/green-bg.png');
+        background: rgb(1,35,24);
+        background: linear-gradient(180deg, rgba(1,35,24,1) 0%, rgba(31,128,83,1) 100%);
+        background-position: center;
+        background-size: cover;
 
-        p {
-            font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 24px;
-            letter-spacing: 4.2px;
-            line-height: 1.2;
+        .text-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #f6cd7e;
+            text-align: center;
+
+            h1 {
+                font-family: 'velour-bold', Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 56px;
+                text-transform: uppercase;
+                margin-bottom: 32px;
+            }
+    
+            p {
+                font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 24px;
+                letter-spacing: 4.2px;
+                line-height: 1.4;
+            }
         }
     }
 
     .section-tiktok {
+        // height: 800px;
+        // background-image: url('../images/green-bg.png');
+        padding: 48px 0;
+        background: rgb(1,35,24);
+        background: linear-gradient(180deg, rgba(1,35,24,1) 0%, rgba(31,128,83,1) 100%);
+        background-position: center;
+        background-size: cover;
+        color: #f6cd7e;
+        text-align: center;
+
+        .content-text {
+            margin-bottom: 24px;
+        }
+
         h1 {
             font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 56px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+        }
+
+        p {
+            font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            line-height: 1.4;
         }
     }
 
     .section-contact {
-        h1 {
-            font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
+        height: 500px;
+        // background-image: url('../images/green-bg.png');
+        background: rgb(1,35,24);
+        background: linear-gradient(180deg, rgba(1,35,24,1) 0%, rgba(31,128,83,1) 100%);
+        background-position: center;
+        background-size: cover;
+        
+        .text-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #f6cd7e;
+            text-align: center;
+
+            h1 {
+                font-family: 'velour-bold', Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 56px;
+                text-transform: uppercase;
+                margin-bottom: 32px;
+            }
+    
+            p {
+                font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 24px;
+                letter-spacing: 4.2px;
+                line-height: 1.4;
+            }
         }
     }
+}
+
+.field {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+    position: absolute;
+    bottom: 24px;
+
+	.mouse {
+		width: 40px;
+		height: 70px;
+		border: 3px solid #FFF;
+		border-radius: 60px;
+		position: relative;
+	
+		&::before {
+			content: '';
+			width: 8px;
+			height: 8px;
+			position: absolute;
+			top: 10px;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: #FFF;
+			border-radius: 50%;
+			opacity: 1;
+			animation: wheel 2s infinite;
+			-webkit-animation: wheel 2s infinite;
+		}
+	}
+}
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 45px;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 45px;
+	}
 }

@@ -5,24 +5,28 @@
     .container {
         .partner {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-    
-            @media screen and (max-width: 991px) {
-                flex-direction: column;
-            }
+            flex-direction: column;
 
             p {
                 margin-right: 8px;
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: 700;
                 letter-spacing: -0.56px;
+                line-height: 1.2;
                 color: $white;
+                text-align: center;
 
-                @media screen and (max-width: 991px) {
-                    margin-bottom: 15px;
-                    margin-right: 0;
+                margin-bottom: 16px;
+                
+                &:last-of-type {
+                    margin-bottom: 0;
                 }
+            }
+
+            a {
+                color: #f6cd7e;
             }
             
             img {
