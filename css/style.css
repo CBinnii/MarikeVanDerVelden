@@ -19264,6 +19264,29 @@ input:active, input:focus, button:active, button:focus {
     .button .button-gold:hover {
       background-color: transparent;
       color: #f6cd7e; }
+  .button .button-dark {
+    background-color: transparent;
+    border: 1px solid #012318;
+    border-radius: 3px;
+    color: #012318;
+    display: flex;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    margin-top: 20px;
+    opacity: 1;
+    outline: 1px solid #012318;
+    outline-offset: 2px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: all .35s ease-in-out;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-decoration: none; }
+    .button .button-dark:hover {
+      background-color: #012318;
+      color: #FFFFFF; }
 
 .header {
   width: 100%;
@@ -19361,6 +19384,7 @@ input:active, input:focus, button:active, button:focus {
                 padding: 8px 16px;
                 letter-spacing: 2px;
                 text-transform: uppercase;
+                font-family: 'velour-regular',serif;
                 color: #f6cd7e; }
                 .header .navbar .container .navbar-menu .navbar-collapse .navbar-nav .nav-item .nav-link.active, .header .navbar .container .navbar-menu .navbar-collapse .navbar-nav .nav-item .nav-link.show, .header .navbar .container .navbar-menu .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .header .navbar .container .navbar-menu .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
                   color: #fff6d7; }
@@ -19377,8 +19401,7 @@ input:active, input:focus, button:active, button:focus {
 .section .section-banner .banner-image {
   height: 100vh;
   background-position: top center;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-size: cover; }
   .section .section-banner .banner-image .container {
     height: 100%;
     display: flex;
@@ -19399,7 +19422,9 @@ input:active, input:focus, button:active, button:focus {
       .section .section-banner .banner-image .container .banner-text p {
         font-size: 21px;
         letter-spacing: 4.2px;
-        line-height: 21px; }
+        line-height: 21px;
+        text-transform: uppercase;
+        font-family: 'BenchNine', Verdana, Geneva, Tahoma, sans-serif; }
 .section .section-about {
   height: 500px;
   background: #012318;
@@ -19419,10 +19444,15 @@ input:active, input:focus, button:active, button:focus {
       text-transform: uppercase;
       margin-bottom: 32px; }
     .section .section-about .text-box p {
-      font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 24px;
-      letter-spacing: 4.2px;
-      line-height: 1.4; }
+      font: normal normal normal 16px/24px 'spartan_regular';
+      line-height: 1.4;
+      width: 600px;
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      letter-spacing: 0px;
+      color: #FFF6D7;
+      opacity: 1; }
 .section .section-tiktok {
   padding: 48px 0;
   background: #012318;
@@ -19442,10 +19472,12 @@ input:active, input:focus, button:active, button:focus {
     font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     line-height: 1.4; }
+    .section .section-tiktok p.title-video {
+      font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 24px; }
 .section .section-contact {
   height: 500px;
-  background: #012318;
-  background: linear-gradient(180deg, #012318 0%, #1f8053 100%);
+  background: #F7F0E2;
   background-position: center;
   background-size: cover; }
   .section .section-contact .text-box {
@@ -19453,11 +19485,12 @@ input:active, input:focus, button:active, button:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #f6cd7e;
+    color: #012319;
     text-align: center; }
     .section .section-contact .text-box h1, .section .section-contact .text-box .h1 {
       font-family: 'velour-bold', Verdana, Geneva, Tahoma, sans-serif;
       font-size: 56px;
+      text-shadow: 0 8px 3px rgba(0, 0, 0, 0.2);
       text-transform: uppercase;
       margin-bottom: 32px; }
     .section .section-contact .text-box p {
@@ -19502,20 +19535,18 @@ input:active, input:focus, button:active, button:focus {
     opacity: 0;
     top: 45px; } }
 .footer {
-  padding: 15px 0;
+  padding: 24px 0;
   background-color: #3C3C3C; }
   .footer .container .partner {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; }
+    flex-direction: column;
+    font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif; }
     .footer .container .partner p {
+      font: normal normal normal 13px/20px 'spartan_regular';
       margin-right: 8px;
-      font-size: 16px;
-      font-weight: 700;
-      letter-spacing: -0.56px;
-      line-height: 1.2;
-      color: #FFFFFF;
+      color: #FFF6D7;
       text-align: center;
       margin-bottom: 16px; }
       .footer .container .partner p:last-of-type {

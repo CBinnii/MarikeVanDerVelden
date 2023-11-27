@@ -4,7 +4,7 @@
             height: 100vh;
             background-position: top center;
             background-size: cover;
-            background-attachment: fixed;
+            // background-attachment: fixed;
 
             .container {
                 height: 100%;
@@ -31,6 +31,8 @@
                         font-size: 21px;
                         letter-spacing: 4.2px;
                         line-height: 21px;
+                        text-transform: uppercase;
+                        font-family: 'BenchNine', Verdana, Geneva, Tahoma, sans-serif;
                     }
                 }
             }
@@ -39,7 +41,6 @@
 
     .section-about {
         height: 500px;
-        // background-image: url('../images/green-bg.png');
         background: rgb(1,35,24);
         background: linear-gradient(180deg, rgba(1,35,24,1) 0%, rgba(31,128,83,1) 100%);
         background-position: center;
@@ -61,10 +62,15 @@
             }
     
             p {
-                font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 24px;
-                letter-spacing: 4.2px;
+                font: normal normal normal 16px/24px 'spartan_regular';
                 line-height: 1.4;
+                width: 600px;
+                margin: 0 auto;
+                display: block;
+                text-align: center;
+                letter-spacing: 0px;
+                color: #FFF6D7;
+                opacity: 1;
             }
         }
     }
@@ -95,14 +101,17 @@
             font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
             font-size: 16px;
             line-height: 1.4;
+
+            &.title-video {
+                font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 24px;
+            }
         }
     }
 
     .section-contact {
         height: 500px;
-        // background-image: url('../images/green-bg.png');
-        background: rgb(1,35,24);
-        background: linear-gradient(180deg, rgba(1,35,24,1) 0%, rgba(31,128,83,1) 100%);
+        background: #F7F0E2;
         background-position: center;
         background-size: cover;
         
@@ -111,12 +120,13 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            color: #f6cd7e;
+            color: #012319;
             text-align: center;
 
             h1 {
                 font-family: 'velour-bold', Verdana, Geneva, Tahoma, sans-serif;
                 font-size: 56px;
+                text-shadow: 0 8px 3px rgba(0,0,0,.2);
                 text-transform: uppercase;
                 margin-bottom: 32px;
             }

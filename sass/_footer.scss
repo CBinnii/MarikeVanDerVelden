@@ -1,5 +1,5 @@
 .footer {
-    padding: 15px 0;
+    padding: 24px 0;
     background-color: $gray-2;
 
     .container {
@@ -8,14 +8,12 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
 
             p {
+                font: normal normal normal 13px/20px 'spartan_regular';
                 margin-right: 8px;
-                font-size: 16px;
-                font-weight: 700;
-                letter-spacing: -0.56px;
-                line-height: 1.2;
-                color: $white;
+                color: #FFF6D7;
                 text-align: center;
 
                 margin-bottom: 16px;
