@@ -19402,6 +19402,15 @@ input:active, input:focus, button:active, button:focus {
   height: 100vh;
   background-position: top center;
   background-size: cover; }
+  .section .section-banner .banner-image:after {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(rgba(1, 38, 26, 0) 70%, #012318 90%);
+    content: "";
+    z-index: 1; }
   .section .section-banner .banner-image .container {
     height: 100%;
     display: flex;
