@@ -19480,10 +19480,12 @@ input:active, input:focus, button:active, button:focus {
   .section .section-tiktok p {
     font-family: 'spartan_regular', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    line-height: 1.4; }
+    line-height: 1.4;
+    color: #FFFFFF; }
     .section .section-tiktok p.title-video {
       font-family: 'velour-regular', Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 24px; }
+      font-size: 24px;
+      color: #f6cd7e; }
 .section .section-contact {
   height: 500px;
   background: #F7F0E2;
